@@ -5,7 +5,7 @@ y_train = input("input y\n")
 
 W = tf.Variable([0.3], dtype = tf.float32)
 b = tf.Variable([-0.3], dtype = tf.float32)
-
+    
 x = tf.placeholder(tf.float32)
 y = tf.placeholder(tf.float32)
 linear_model = W * x + b
